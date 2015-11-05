@@ -4,4 +4,4 @@ build:
     pull: true
 
     commands:
-        - ./test.h
+        - ./test.sh
