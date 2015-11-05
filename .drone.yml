@@ -1,5 +1,7 @@
 build:
-    image: dronetest
+    image: ubuntu:14.04.3
+
     pull: true
-    commands:
+
+    script:
         - ./test.h
