@@ -1,4 +1,4 @@
 build:
     pull: true
     commands:
-        - echo ok
+        - ./test.h
