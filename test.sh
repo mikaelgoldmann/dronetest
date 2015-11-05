@@ -1,4 +1,4 @@
 #/bin/bash
 set -e 
 echo '**************** ' yes
-exit 1
+exit 0
