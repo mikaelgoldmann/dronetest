@@ -1,4 +1,5 @@
 build:
+    image: dronetest
     pull: true
     commands:
         - ./test.h
