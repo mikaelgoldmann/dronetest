@@ -1,0 +1,4 @@
+build:
+    pull: true
+    commands:
+        - echo ok
