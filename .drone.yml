@@ -6,4 +6,5 @@ build:
     commands:
         - /etc/init.d/postgresql start
         - sudo -u postgres psql -c "select now()"
+        - PYTHONPATH=. nose2 test
         - ./test.sh
