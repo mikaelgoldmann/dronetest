@@ -1,4 +1,5 @@
 #/bin/bash
-set -e 
+set +x
+set -e
 echo '**************** ' yes
-exit 1
+exit 0  # success!!

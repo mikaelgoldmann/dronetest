@@ -1,7 +1,9 @@
 build:
-    image: ubuntu:14.04.3
+    image: mikaelgoldmann/kattistest
 
     pull: true
 
     commands:
+        - /etc/init.d/postgresql start
+        - sudo -u postgres psql -c "select now()"
         - ./test.sh
