@@ -4,4 +4,6 @@ build:
     pull: true
 
     commands:
+        - /etc/init.d/postgresql start
+        - sudo -u postgres psql -c "select now()"
         - ./test.sh
